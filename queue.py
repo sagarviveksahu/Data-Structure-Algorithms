@@ -30,17 +30,3 @@ class Queue:
         self.elements = []
         return self.elements
 
-A = Queue()
-A.enque(1)
-A.enque(5)
-A.enque(0)
-A.enque(5)
-A.enque(8)
-print(A.size())
-print(A.firstElement())
-print(A.lastElement())
-print(A.isEmpty())
-print(A.nthElement(3))
-print(A.viewElements())
-print(A.deque())
-print(A.viewElements())
