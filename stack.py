@@ -30,17 +30,3 @@ class Stack:
         self.elements = []
         return self.elements
 
-A = Stack()
-A.push(1)
-A.push(5)
-A.push(0)
-A.push(5)
-A.push(8)
-print(A.size())
-print(A.bottomElement())
-print(A.topElement())
-print(A.isEmpty())
-print(A.nthElement(3))
-print(A.viewElements())
-print(A.pop())
-print(A.viewElements())
