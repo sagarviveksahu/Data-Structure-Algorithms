@@ -15,5 +15,4 @@ def binarySearch(dataList,value):
                 start = mid + 1
     return found
 
-a = [1,6,9,31,67,90,154,234,250,346,423,565,634,647,787]
-print(binarySearch(a,423))
+
